@@ -1,0 +1,23 @@
+{
+  "name": "flowcode/workshop-php-basictesting",
+  "description": "PHP basic testing",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Juan Manuel Aguero",
+      "email": "jaguero@flowcode.com.ar"
+    }
+  ],
+  "platform": {
+    "php": "5.5"
+  },
+  "autoload": {
+    "psr-0": {
+      "": "src"
+    }
+  },
+  "require": {
+    "phpunit/phpunit": "^5.5"
+  }
+}
